@@ -3,7 +3,7 @@
   {
     "name": "AMAZON CLONE BASIC ",
     "desc": "HTML& CSS Workable Amazon Website ",
-    "image": "flipkartphp.png",
+    "image": "flipkartphp",
     "category": "basicweb",
     "links": {
       "view": "https://github.com/amratanshu788/Amazon-clone-basic.git",
@@ -13,7 +13,7 @@
   {
     "name": "LIBRARY MANAGEMENT SYSTEM ",
     "desc": "The library management deals in management of records. The records include books which are required by different students accordingly.",
-    "image": "jspro.png",
+    "image": "jspro",
     "category": "basicweb",
     "links": {
       "view": "https://github.com/amratanshu788/Library-Management-System.git",
@@ -24,7 +24,7 @@
   {
     "name": "Crypto Tracker",
     "desc": "Fetching and Analyzing Top 50 Live Cryptocurrency Data. Supports dark mode. API used coingecko.",
-    "image": "cryptotracker.png",
+    "image": "cryptotracker",
     "category": "mern",
     "links": {
       "view": "#",
@@ -35,7 +35,7 @@
   {
     "name": "Portfolio Website",
     "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-    "image": "portfolio1.png",
+    "image": "portfolio1",
     "category": "basicweb",
     "links": {
       "view": "#",
