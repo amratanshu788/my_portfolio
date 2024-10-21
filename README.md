@@ -43,3 +43,14 @@ To run this portfolio project locally on your machine, follow these steps:
 1. Clone this repository:
    ```bash
    git clone https://github.com/amratanshu788/my_portfolio.git
+
+## Contact
+
+If you would like to get in touch with me, feel free to reach out through the following channels:
+
+- **Email**: [amratanshuchakrawarti9415@gmail.com](mailto:amratanshuchakrawarti9415@gmail.com)
+- **LinkedIn**: [Connect with me on LinkedIn](https://www.linkedin.com/in/amratanshu-7908ba136/)
+- **GitHub**: [My GitHub Profile](https://github.com/amratanshu788)
+
+I’m always open to discussing new projects, creative ideas, or opportunities to be part of your vision. 😊
+
