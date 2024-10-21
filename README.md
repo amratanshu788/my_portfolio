@@ -37,9 +37,6 @@ You can visit the live version of the portfolio [here](https://my-portfolio-thet
 
 To run this portfolio project locally on your machine, follow these steps:
 
-### Prerequisites
-
-- **Node.js** and **npm** installed on your system.
 
 ### Steps
 
