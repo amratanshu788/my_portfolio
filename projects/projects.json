@@ -6,7 +6,7 @@
     "image": "flipkartphp",
     "category": "basicweb",
     "links": {
-      "view": "https://amratanshu788.github.io/Amazon-clone-basic/",
+      "view": "https://github.com/amratanshu788/Amazon-clone-basic.git",
       "code": "https://github.com/amratanshu788/Amazon-clone-basic.git"
     }
   },
@@ -39,7 +39,18 @@
     "category": "basicweb",
     "links": {
       "view": "#",
-      "code": "https://github.com/amratanshu788/my_portfolio"
+      "code": "https://github.com/amratanshu788/portfolio"
+    }
+  },
+
+  {
+    "name": "Solar System ",
+    "desc": "A visually interactive solar system simulation with planets orbiting the sun at realistic speeds, built using HTML, CSS, and JavaScript.",
+    "image": "solar",
+    "category": "basicweb",
+    "links": {
+      "view": "https://amratanshu788.github.io/Solar-System/",
+      "code": "https://github.com/amratanshu788/Solar-System.git"
     }
   }
 ]
