@@ -54,14 +54,4 @@
     }
   }
   
-  {
-    "name": "Blood Demand Forcasting",
-    "desc": "Blood demand forecasting in a blood bank involves using predictive analytics to estimate future blood requirements, ensuring optimal inventory levels and timely availability for patients.",
-    "image": "Blood",
-    "category": "basicweb",
-    "links": {
-      "view": "https://blooddemandforcasting.netlify.app/",
-      "code": "https://github.com/amratanshu788/Blood-demand-forcasting.git"
-    }
-  }
 ]
