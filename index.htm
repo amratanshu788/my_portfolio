@@ -391,14 +391,32 @@
   </div>
 
   <!-- Visitor counter -->
-  <div class="box" style="text-align: center; padding-top: 20px;">
-      <h3>Visitors Count</h3>
-      <img src="https://visit-counter.vercel.app/counter.png?page=https%3A%2F%2Fmy-portfolio-theta-ebon-21.vercel.app%2F&s=20&c=ffffff&bg=00000000&no=4&ff=linebeam&tb=&ta=++Visitors%21" alt="Visits Till date ">
-  </div>
+ <!-- Visitor Counter -->
+<div class="box" style="text-align: center; padding-top: 20px;">
+  <h3>Visitors Count</h3>
+  <p id="visits" style="font-size: 20px; font-weight: bold; color: #ffffff;">Loading...</p>
+</div>
 
-  <h1 class="credit">Designed with <i class="fa fa-heart pulse"></i> by <a href="https://www.linkedin.com/in/amratanshu-7908ba136/"> Amratanshu</a></h1>
+<h1 class="credit">Designed with 
+  <i class="fa fa-heart pulse"></i> 
+  by <a href="https://www.linkedin.com/in/amratanshu-7908ba136/">Amratanshu</a>
+</h1>
 
-</section>
+<script>
+  async function updateCounter() {
+    try {
+      // Using “my-portfolio-theta-ebon-21” as namespace, “visits” as key
+      const res = await fetch("https://api.countapi.xyz/hit/my-portfolio-theta-ebon-21/visits");
+      const data = await res.json();
+      document.getElementById("visits").textContent = data.value + " Visitors Till Now";
+    } catch (err) {
+      console.error("Counter error:", err);
+      document.getElementById("visits").textContent = "Error";
+    }
+  }
+  updateCounter();
+</script>
+
 <!-- footer section ends -->
 
 
