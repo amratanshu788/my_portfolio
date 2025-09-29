@@ -391,10 +391,10 @@
   </div>
 
   <!-- Visitor counter -->
- <!-- Visitor Counter -->
-<div class="box" style="text-align: center; padding-top: 20px;">
-  <h3>Visitors Count</h3>
-  <p id="visits" style="font-size: 20px; font-weight: bold; color: #ffffff;">Loading...</p>
+<!-- Visitor Counter -->
+<div class="box" style="text-align: center; padding-top: 20px; color: #ffffff;">
+  <h3 style="margin-bottom: 10px;">Visitors Count</h3>
+  <p id="visits" style="font-size: 22px; font-weight: bold;">Loading...</p>
 </div>
 
 <h1 class="credit">Designed with 
@@ -405,17 +405,18 @@
 <script>
   async function updateCounter() {
     try {
-      // Using “my-portfolio-theta-ebon-21” as namespace, “visits” as key
+      // Unique namespace for your site
       const res = await fetch("https://api.countapi.xyz/hit/my-portfolio-theta-ebon-21/visits");
       const data = await res.json();
       document.getElementById("visits").textContent = data.value + " Visitors Till Now";
     } catch (err) {
       console.error("Counter error:", err);
-      document.getElementById("visits").textContent = "Error";
+      document.getElementById("visits").textContent = "Could not load visitor count";
     }
   }
   updateCounter();
 </script>
+
 
 <!-- footer section ends -->
 
