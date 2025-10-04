@@ -1,15 +1,15 @@
 [
-  
-  {
-    "name": "AMAZON CLONE BASIC ",
-    "desc": "HTML& CSS Workable Amazon Website ",
-    "image": "Amazon",
+    {
+    "name": "AMRATANSHU CHATAPP",
+    "desc": "Responsive Chat App",
+    "image": "Screenshot 2025-10-04 235032.png",
     "category": "basicweb",
     "links": {
-      "view": "https://amratanshu788.github.io/Amazon-clone-basic/",
-      "code": "https://github.com/amratanshu788/Amazon-clone-basic.git"
+      "view": "https://amratanshu-chatapp-rv1r.onrender.com/login",
+      "code": "#"
     }
   },
+  
   {
     "name": "LIBRARY MANAGEMENT SYSTEM ",
     "desc": "The library management deals in management of records. The records include books which are required by different students accordingly.",
@@ -42,7 +42,16 @@
       "code": "https://github.com/amratanshu788/portfolio"
     }
   },
-
+  {
+    "name": "AMAZON CLONE BASIC ",
+    "desc": "HTML& CSS Workable Amazon Website ",
+    "image": "Amazon",
+    "category": "basicweb",
+    "links": {
+      "view": "https://amratanshu788.github.io/Amazon-clone-basic/",
+      "code": "https://github.com/amratanshu788/Amazon-clone-basic.git"
+    }
+  },
   {
     "name": "Solar System ",
     "desc": "A visually interactive solar system simulation with planets orbiting the sun at realistic speeds, built using HTML, CSS, and JavaScript.",
